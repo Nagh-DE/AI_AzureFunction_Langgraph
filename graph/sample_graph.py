@@ -20,7 +20,6 @@ sample_graph.add_node("invalid_id", invalid_id_node)
 sample_graph.add_node("fetch", fetch_messages_node)
 sample_graph.add_node("prepare", prepare_context_node)
 sample_graph.add_node("summarize", summarize_sentiment_node)
-# sample_graph.add_node("evaluate", evaluate_sentiment_node)
 sample_graph.add_node("raise_alert", raise_support_alert_node)
 sample_graph.add_node("generate_response", generate_response_node)
 
